@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hero-section{
+    background-image: url("../media/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%) ;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.hero-details{
+    width: 50%;
+    color: white;
+    padding: 150px 150px;
+}
+.hero-details h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+.hero-details p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.hero-form{
+    width: 50%;
+}
+.container{
+    background-color: white;
+    height: 420px;
+    width: 450px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+#top-button{
+    border: none;
+    filter: drop-shadow(0rem .4rem rgba(0, 0, 0, 0.3));
+    margin-top: 80px;
+    margin-bottom: 15px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    padding: 20px 15px;
+    font-size: 16px;
+    
+}
+#firstname{
+    border-radius: 5px;
+    border: 0.2px solid gainsboro; 
+    width: 350px;
+    height: 25px;
+    margin: 10px 30px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#lastname{
+    border: 0.2px solid gainsboro;
+    border-radius: 5px;
+    width: 350px;
+    height: 25px;
+    margin: 10px 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+#email{
+    border: 0.2px solid gainsboro;
+    border-radius: 5px;
+    width: 350px;
+    height: 25px;
+    margin: 10px 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+#password{
+    border: 0.2px solid gainsboro;
+    border-radius: 5px;
+    width: 350px;
+    height: 25px;
+    margin: 10px 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+#submit{
+    border: 0.2px solid gainsboro;
+    border-radius: 5px;
+    width: 400px;
+    height: 25px;
+    margin: 10px 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-weight: bold;
+}
+.container p{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: gainsboro;
+}
+.container span{
+    color: rgb(216, 153, 164);
+
+}
+.form-control{
+   margin-left: -100px; 
+   margin-top: -50px;
+}
+@media  (max-width: 767px){
+    .hero-section{
+        background-image: url("../media/bg-intro-mobile.png");
+        display: block;
+        height: 150vh;
+        width: 100%;
+    }
+    .hero-details{
+        padding: 0px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .hero-details h1{
+        font-weight: 700;
+        font-size: 30px;
+        padding: 0px 30px;
+        padding-top: 50px;
+    }
+    .hero-details p{
+        padding: 0px 30px;
+        font-size: 14px;
+    }
+    .hero-form{
+        width: 100%; 
+    }
+    .container{
+        width: 90%;
+        margin-left: 15px;
+    }
+    #firstname, #lastname, #email, #password{
+        width: 70%;
+    }
+    #submit{
+        width: 85%;
+    }
+    .submit{
+        width: 100%;
+    }
+   #top-button{
+       width: 90%;
+       margin-left: 15px;
+   }
+   .form-control{
+    margin-left: 0px; 
+    margin-top: 0px;
+   }
+   .container p{
+       padding: 0px 10px;
+   }
+}
+@media  (min-width: 768px ) and (max-width:1023px){
+    .hero-section{
+        display: block;
+        height: 150vh;
+        width: 100%;
+    }
+    .hero-details{
+        padding: 0px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .hero-details h1{
+        font-weight: 700;
+        font-size: 40px;
+        padding: 0px 30px;
+        padding-top: 50px;
+        
+    }
+    .hero-details p{
+        padding: 0px 50px;
+        font-size: 16px;
+    }
+    .hero-form{
+        width: 100%; 
+    }
+    .container{
+        width: 90%;
+        padding: 0px;
+        margin-left: 15px;
+    }
+    #firstname, #lastname, #email, #password{
+        width: 78%;
+    }
+    #submit{
+        width: 85%;
+    }
+    .submit{
+        width: 100%;
+    }
+   #top-button{
+       width: 90%;
+       margin-left: 20px;
+   }
+   .form-control{
+    margin-left: 45px; 
+    margin-top: 0px;
+   }
+   .container p{
+       padding: 0px 5px;
+   }
+}
